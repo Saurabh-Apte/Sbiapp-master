@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.darkknight.sbiapp.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/im2" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:background="#ffff"
+        android:text="Login"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnLogin"
+        android:layout_alignBottom="@+id/btnLogin"
+        android:layout_toEndOf="@+id/btnLogin"
+        android:layout_toRightOf="@+id/btnLogin"
+        android:background="#ffff"
+        android:text="Register"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnInb"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffff"
+        android:text="Existing Anywhere/INB User" />
+
+    <Button
+        android:id="@+id/btnFreedom"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnInb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:textAllCaps="false"
+        android:textColor="#ffff"
+        android:background="@color/colorPrimaryDark"
+        android:text="Existing Freedom User" />
+
+    <Button
+        android:id="@+id/btnNew"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnFreedom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffff"
+        android:text="New User" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/im4" />
+
+
+</RelativeLayout>
